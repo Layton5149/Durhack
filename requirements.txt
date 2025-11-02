@@ -1,5 +1,5 @@
 flask
 flask-socketio
-eventlet
 flask-sqlalchemy
-gunicorn
+gevent>=24.2.1
+gevent-websocket>=0.10.1
